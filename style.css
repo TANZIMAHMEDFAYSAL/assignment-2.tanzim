@@ -109,17 +109,19 @@ body{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .description{
     width: 500px;
     height: 331px;
     /* border: 5px solid red;
     */
+    text-align: center;
+    
 } 
 .description-title{
     /* width: 400px; */
-    font-size: 56px;
+    font-size: 54px;
     margin-top: 0;
 }
 .span-1{
@@ -140,6 +142,77 @@ body{
     width: 468px;
     height: 575px;
     /* border: 5px solid rgb(66, 60, 60); */
+}
+/* ,,,,,,,,,,,,,,card  */
+
+
+.card-parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.upper-title{
+    text-align: center;
+    font-size: 40px;
+}
+.card-1{
+    width: 367px;
+    height: 476px;
+    /* border: 5px solid red; */
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, hsl(202, 64%, 84%) 0%, #DCDCDC 40% );
+}
+.card-2{
+    width: 367px;
+    height: 476px;
+    /* border: 5px solid red; */
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, hsl(28, 36%, 73%) 0%, #DCDCDC 40% );
+}
+.card-3{
+    width: 367px;
+    height: 476px;
+    /* border: 5px solid red; */
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, hsl(320, 53%, 79%) 0%, #DCDCDC 40% );
+}
+.card-btn-3{
+    width: 200px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: auto;
+    color: rgb(247, 32, 60);
+    
+}
+.card-btn-1{
+    width: 200px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    margin: auto;
+    color: rgb(8, 68, 199);
+}
+.card-btn-2{
+    width: 200px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: auto;
+    color: rgb(245, 121, 4);
 }
 
 
@@ -174,6 +247,17 @@ body{
     }
     .description{
         width: 100%;
+    }
+    .upper-title{
+
+    }
+    .card-parent{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .card-1, .card-2, .card-3{
+        margin-top: 20px;
     }
    
     
