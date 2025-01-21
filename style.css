@@ -214,7 +214,44 @@ body{
     margin: auto;
     color: rgb(245, 121, 4);
 }
+/* ................... */
+.arrow{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.left-arrow{
+    border-radius: 100%;
+    background-color: orange;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.left-arrow i{
+    text-align: center;
+    padding: 20px;
+}
 
+.right-arrow{
+
+    border-radius: 100%;
+    background-color: orange;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+   
+
+
+}
+.right-arrow i{
+    text-align: center;
+    padding: 20px; 
+
+}
 
 
 
@@ -259,7 +296,10 @@ body{
     .card-1, .card-2, .card-3{
         margin-top: 20px;
     }
-   
+
+   .arrow{
+    display: none;
+   }
     
 }
 @media screen and (min-width:577px) {
