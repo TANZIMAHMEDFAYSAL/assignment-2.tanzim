@@ -1,5 +1,6 @@
 body{
-    background-color: chocolate;
+    /* background-color: chocolate; */
+    background-color: rgb(224, 205, 169);
 }
 
 #header{
@@ -257,26 +258,24 @@ body{
 
 }
 /* ................. */
-.parent1{
-    background-image: url();
-    background-repeat: no-repeat;
-}
-.parent1{
-    /* background: linear-gradient(to bottom, #FF8C00 5%, #F0E68C 0%); */
-}
+
 .box-parent{
     /* border: 5px solid red; */
     display: flex;
 }
-.parent1{
-    /* border: 5px solid rgb(4, 185, 43); */
-    display: flex;
-    justify-content: center;
+.parent-12{
+    width: 1150px;
+    height: 610px;
+   /* border: 5px solid red; */
+   background-image: url(assets/bg.png);
+   background-repeat: no-repeat;
+   margin: auto;
+   /* background: linear-gradient(to bottom, #FF4500 -0%, #EEE8AA 50%); */
 }
 
 .single-box{
     width: 540px;
-    height: 630px;
+    height: 610px;
     background-color: rgb(185, 185, 178);
     border-radius: 20px;
     margin-right: 20px;
@@ -316,7 +315,7 @@ body{
     border-radius: 10px;
 }
 
-.box-btn{
+.box-btn-1{
     position: relative;
     top: -20px;
     width: 150px;
@@ -328,6 +327,63 @@ body{
     color: white;
     border-radius: 10px;
 
+}
+.box-btn-2{
+    position: relative;
+    top: -20px;
+    width: 150px;
+    font-size: 20px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 50px;
+    background-color:springgreen;
+    color: white;
+    border-radius: 10px;
+
+}
+.box-btn-3{
+    position: relative;
+    top: -20px;
+    width: 150px;
+    font-size: 20px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 50px;
+   background-color: crimson;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.box-btn-4{
+    position: relative;
+    top: -20px;
+    width: 150px;
+    font-size: 20px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 50px;
+    background-color: rgb(48, 46, 47);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.view{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.view-all-btn{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
 }
 /* ................. */
 
@@ -439,12 +495,12 @@ font-size: 25px;
     display: none;
    }
 
-   .parent{
+   .parent-12{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-left: 0;
-    height: 100vh;
+    height: 100%;
     gap: 20px;
     
 }
