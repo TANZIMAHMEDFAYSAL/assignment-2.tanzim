@@ -390,42 +390,46 @@ body{
 footer{
     background-color: rgb(5, 5, 99);
     color: white;
+    
 }
-.first{
-    width: 300px;
-    height: 250px;
+.parent{
+    display: flex;
+    height: 600px;
+    /* align-items: center; */
+    justify-content: space-evenly;
 }
 .education{
     display: flex;
-    
     align-items: center;
 }
 .education img{
-    width: 62px;
-    height: 62px;
+ height: 62px;
+ width: 62px;
 }
 .education h1{
-    width: 30px;
+
+ width: 30px;
+ text-transform: capitalize;
+}
+.footer-div{
+    margin-top: 40px;
+    height: 250px;
+    width: 350px;
+    /* border: 2px solid white; */
+}
+.navbar ul li{ 
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.keep-me{
     text-transform: capitalize;
 }
 
-.second h1{
-text-transform: capitalize;
-font-size: 25px;
-font-weight: bold;
-}
-.second nav ul li{
-    list-style: none;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-.third h1{
-text-transform: capitalize;
-font-size: 25px;
-}
-.parent{
-    margin-left: 100px;
-}
+
+
+
 
 
 
@@ -504,6 +508,13 @@ font-size: 25px;
     gap: 20px;
     
 }
+.parent{
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+ 
+}
+
 
     
 }
