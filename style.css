@@ -332,8 +332,44 @@ body{
 /* ................. */
 
 footer{
-    background-color: rgb(98, 98, 197);
+    background-color: rgb(5, 5, 99);
+    color: white;
 }
+.first{
+    width: 300px;
+    height: 400px;
+}
+.education{
+    display: flex;
+    margin-left: 10px;
+    padding-left: 5px;
+    align-items: center;
+}
+.education img{
+    width: 62px;
+    height: 62px;
+}
+.education h1{
+    width: 30px;
+    text-transform: capitalize;
+}
+
+.second h1{
+text-transform: capitalize;
+font-size: 25px;
+font-weight: bold;
+}
+.second nav ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.third h1{
+text-transform: capitalize;
+font-size: 25px;
+}
+
+
 
 
 
