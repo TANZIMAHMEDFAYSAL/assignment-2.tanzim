@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
    
 }
 .logo {
@@ -31,9 +32,9 @@ body{
 }
 .hr-line{
     
-    width: 100%;
+    width: 90%;
     height: 2px;
-    background-color: rgb(43, 255, 0);
+    background-color: rgb(245, 111, 2);
 }
 /* .......large device */
 .large-parent{
@@ -456,7 +457,14 @@ footer{
         width: 100vw;
     }
     #header{
-        width: 100vw;
+        width: 100%;
+    }
+    .small-device{
+        width: 90%;
+    }
+    .hr-line{
+        width: 93%;
+        margin-left: 0;
     }
     .title{
         font-size: 30px;
