@@ -1,12 +1,18 @@
 body{
     /* background-color: chocolate; */
     background-color: rgb(224, 205, 169);
+    margin: 0;
+    padding: 0;
 }
 
 #header{
     /* width: 1300px; */
     background-color: blanchedalmond;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+.marquee{
+    text-transform: capitalize;
+    font-size: 30px;
 }
 .all-device-parent{
     width: 1160px;
@@ -430,26 +436,13 @@ footer{
 .keep-me{
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ..................end all  */
 
 
 
 
 @media screen and (max-width:576px) {
+  
     .large-parent{
         display: none;
     }
@@ -458,6 +451,9 @@ footer{
     }
     #header{
         width: 100%;
+    }
+    .marquee{
+        display: none;
     }
     .small-device{
         width: 90%;
